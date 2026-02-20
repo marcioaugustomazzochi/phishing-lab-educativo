@@ -2,7 +2,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green)](https://opensource.org/licenses/MIT)
-[![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-orange)](https://github.com/marcioaugustomazzochi/phishing-lab-educativo)
+[![WIP](https://img.shields.io/badge/Status-Em%20Andamento-orange)](https://github.com/marcioaugustomazzochi/phishing-lab-educativo)
 [![GitHub stars](https://img.shields.io/github/stars/marcioaugustomazzochi/phishing-lab-educativo)](https://github.com/marcioaugustomazzochi/phishing-lab-educativo/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/marcioaugustomazzochi/phishing-lab-educativo)](https://github.com/marcioaugustomazzochi/phishing-lab-educativo/network/members)
 [![GitHub issues](https://img.shields.io/github/issues/marcioaugustomazzochi/phishing-lab-educativo)](https://github.com/marcioaugustomazzochi/phishing-lab-educativo/issues)
