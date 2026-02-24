@@ -1,78 +1,91 @@
-# 📸 Evidências da Execução do Laboratório
+# 📸 **GALERIA DE EVIDÊNCIAS**
+## 🚀 **Execução Prática — Phishing Lab Educativo**
 
-Esta seção apresenta a execução prática do **Phishing Lab Educativo** em ambiente controlado (Kali Linux + Python), demonstrando cada etapa do processo.
+> 📌 Documentação visual da execução do laboratório em ambiente controlado (**Kali Linux + Python**).  
+> 🎯 Finalidade exclusivamente educacional.
 
 ---
 
-## 🔹 1️⃣ Criação e Ativação do Ambiente Virtual
+## 🔹 **1. Criação e Ativação do Ambiente Virtual**
 
-Comando utilizado:
+### 📌 Objetivo
+Criar um ambiente isolado para execução segura do projeto.
+
+### 💻 Comandos Executados
 
 ```bash
 python3 -m venv venv
 source venv/bin/activate
 ```
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/dd4195aa-5245-4915-b3f5-c18b8ada461a" width="900">
-</p>
+### 🖼️ Evidência
 
-<p align="center"><em>Figura 1 — Criação e ativação do ambiente virtual (venv)</em></p>
+![Figura 1 — Criação e ativação do ambiente virtual (venv) no Kali Linux](https://github.com/user-attachments/assets/dd4195aa-5245-4915-b3f5-c18b8ada461a)
 
 ---
 
-## 🔹 2️⃣ Instalação das Dependências
+## 🔹 **2. Instalação das Dependências**
 
-Comando utilizado:
+### 📌 Objetivo
+Instalar as bibliotecas necessárias definidas no arquivo `requirements.txt`.
+
+### 💻 Comando Executado
 
 ```bash
 pip install -r requirements.txt
 ```
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/711ed35a-0b02-4127-a725-446769044929" width="900">
-</p>
+### 🖼️ Evidência
 
-<p align="center"><em>Figura 2 — Instalação das dependências no ambiente virtual</em></p>
+![Figura 2 — Instalação das dependências no ambiente virtual (venv)](https://github.com/user-attachments/assets/711ed35a-0b02-4127-a725-446769044929)
 
 ---
 
-## 🔹 3️⃣ Execução do Servidor Flask
+## 🔹 **3. Execução do Servidor Flask**
 
-Comando utilizado:
+### 📌 Objetivo
+Inicializar a aplicação web local para simulação educativa.
+
+### 💻 Comando Executado
 
 ```bash
 python app.py
 ```
 
-Aplicação disponível em:
+### 🌐 Aplicação Disponível em
 
 ```
 http://localhost:5000
 ```
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/b1099280-2dc8-49d6-8570-6a229d7adef6" width="900">
-</p>
+### 🖼️ Evidência
 
-<p align="center"><em>Figura 3 — Servidor Flask em execução</em></p>
+![Figura 3 — Servidor Flask em execução no Kali Linux](https://github.com/user-attachments/assets/b1099280-2dc8-49d6-8570-6a229d7adef6)
 
 ---
 
-## 🔹 4️⃣ Interação e Registro de Logs
+## 🔹 **4. Registro de Logs da Simulação**
 
-Após a interação com a página educativa, os dados foram registrados automaticamente em log (CSV / SQLite).
+### 📌 Objetivo
+Registrar automaticamente as interações realizadas na página educativa.
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/7e08d0ba-df87-45e8-8c62-1bb2faacc80d" width="900">
-</p>
+- 📄 Armazenamento em **CSV**
+- 🗄️ Armazenamento em **SQLite**
+- 📊 Coleta de dados para análise educacional
 
-<p align="center"><em>Figura 4 — Registro de interação e evidência prática</em></p>
+### 🖼️ Evidência
 
----
-
-## 🛡️ Observação
-
-Todas as execuções foram realizadas em ambiente controlado, exclusivamente para fins educacionais e de conscientização em Segurança da Informação.
+![Figura 4 — Registro de interação e logs gerados](https://github.com/user-attachments/assets/7e08d0ba-df87-45e8-8c62-1bb2faacc80d)
 
 ---
+
+# 🛡️ **OBSERVAÇÃO DE SEGURANÇA**
+
+> ⚠️ Este laboratório foi desenvolvido exclusivamente para:
+>
+> - 🎓 **Estudos acadêmicos**
+> - 🧠 **Conscientização em Segurança da Informação**
+> - 🧪 **Simulações controladas**
+> - ✅ **Ambiente autorizado**
+>
+> ❗ **Não deve ser utilizado para fins maliciosos.**
