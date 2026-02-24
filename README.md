@@ -8,9 +8,9 @@
 
 ## 🔎 Visão Geral
 
-O **Phishing Lab Educativo** é um laboratório seguro desenvolvido em Python com o objetivo de **simular cenários educativos de engenharia social em ambiente controlado**.
+O **Phishing Lab Educativo** é um laboratório seguro desenvolvido em Python com o objetivo de **simular cenários educativos de engenharia social em ambiente controlado e autorizado**.
 
-O projeto foi criado para fins acadêmicos e de conscientização em Segurança da Informação, permitindo a demonstração prática de como campanhas de phishing funcionam — sem comprometer terceiros.
+O projeto foi criado para fins acadêmicos e de conscientização em Segurança da Informação, permitindo a demonstração prática de técnicas utilizadas em campanhas de phishing, com foco em aprendizado, análise de logs e boas práticas defensivas.
 
 > ⚠️ Uso estritamente educacional e apenas em ambientes autorizados.
 
@@ -18,37 +18,39 @@ O projeto foi criado para fins acadêmicos e de conscientização em Segurança 
 
 ## 🎯 Objetivo do Projeto
 
-Demonstrar na prática conceitos de:
+Demonstrar na prática conceitos relacionados a:
 
-- Engenharia Social
-- Conscientização em Segurança da Informação
-- Registro e análise de logs
-- Automação com Python
-- Desenvolvimento Web com Flask
-- Estruturação de laboratório seguro
+- Engenharia Social  
+- Conscientização em Segurança da Informação  
+- Registro, coleta e análise de logs  
+- Automação com Python  
+- Desenvolvimento Web com Flask  
+- Estruturação de laboratório seguro para testes controlados  
 
 ---
 
 ## ✅ Funcionalidades
 
-- Criação automática de páginas educativas
-- Simulação controlada de envio de e-mails
-- Registro de interações em logs (CSV / SQLite)
-- Captura automática de screenshots
-- Geração de relatórios
-- Templates personalizáveis
+- Geração automática de páginas educativas  
+- Simulação controlada de envio de e-mails  
+- Registro de interações em logs (CSV / SQLite)  
+- Captura automatizada de screenshots  
+- Geração de relatórios para análise  
+- Templates personalizáveis  
 
 ---
 
 ## 🛠 Tecnologias Utilizadas
 
-- Python 3.x
-- Flask
-- SQLite
-- CSV
-- PyAutoGUI
-- smtplib
-- HTML / CSS / Jinja2
+- Python 3.x  
+- Flask  
+- SQLite  
+- CSV  
+- PyAutoGUI  
+- smtplib  
+- HTML  
+- CSS  
+- Jinja2  
 
 ---
 
@@ -72,26 +74,26 @@ phishing-lab-educativo/
 
 ## 🚀 Como Executar
 
-### 1️⃣ Clone o repositório
+### 1️⃣ Clonar o repositório
 
 ```bash
 git clone https://github.com/marcioaugustomazzochi/phishing-lab-educativo.git
 cd phishing-lab-educativo
 ```
 
-### 2️⃣ Instale as dependências
+### 2️⃣ Instalar as dependências
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3️⃣ Execute o servidor
+### 3️⃣ Executar o servidor
 
 ```bash
 python app.py
 ```
 
-### 4️⃣ Acesse no navegador
+### 4️⃣ Acessar no navegador
 
 ```
 http://localhost:5000
@@ -101,7 +103,7 @@ http://localhost:5000
 
 ## 📸 Evidências de Execução
 
-As evidências da execução prática estão disponíveis no arquivo:
+As evidências da execução prática estão documentadas no arquivo:
 
 ```
 IMAGENS.md
@@ -113,12 +115,12 @@ IMAGENS.md
 
 Este laboratório foi desenvolvido exclusivamente para:
 
-- Estudos acadêmicos
-- Conscientização de usuários
-- Simulações controladas
-- Ambientes autorizados
+- Estudos acadêmicos  
+- Demonstrações técnicas  
+- Conscientização de usuários  
+- Simulações controladas em ambiente autorizado  
 
-❗ Não deve ser utilizado para fins maliciosos.
+❗ O uso indevido deste projeto para fins maliciosos é de inteira responsabilidade do usuário.
 
 ---
 
@@ -126,7 +128,7 @@ Este laboratório foi desenvolvido exclusivamente para:
 
 Este projeto está licenciado sob a **MIT License**.
 
-A licença permite uso, modificação e distribuição do código, desde que o aviso de copyright e a licença original sejam mantidos.
+A licença permite uso, modificação e distribuição do código, desde que o aviso de copyright e o texto original da licença sejam preservados.
 
 ---
 
