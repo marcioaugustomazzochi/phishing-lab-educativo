@@ -55,6 +55,7 @@ phishing-lab-educativo/
 ├─ emails/                 # Scripts de envio de e-mails seguros
 ├─ utils/                  # Funções auxiliares (relatórios, análise)
 └─ examples/               # Exemplos de campanhas educativas
+
 🚀 Como Executar
 
 Clone o repositório:
