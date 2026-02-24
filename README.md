@@ -56,6 +56,8 @@ phishing-lab-educativo/
 ├─ utils/                  # Funções auxiliares (relatórios, análise)
 └─ examples/               # Exemplos de campanhas educativas
 
+---
+
 🚀 Como Executar
 
 Clone o repositório:
