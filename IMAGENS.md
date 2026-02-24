@@ -17,7 +17,7 @@ source venv/bin/activate
 
 Evidência da ativação do ambiente virtual:
 
-![Ambiente Virtual Criado](imagens/01_ambiente_virtual.png)
+<img width="1920" height="936" alt="Figura 1 — Criação e ativação do ambiente virtual (venv) no Kali Linux" src="https://github.com/user-attachments/assets/dd4195aa-5245-4915-b3f5-c18b8ada461a" />
 
 ---
 
@@ -31,7 +31,7 @@ pip install -r requirements.txt
 
 Evidência da instalação das dependências:
 
-![Dependências Instaladas](imagens/02_dependencias_instaladas.png)
+<img width="1920" height="936" alt="Figura 2 — Instalação das dependências no ambiente virtual (venv)" src="https://github.com/user-attachments/assets/711ed35a-0b02-4127-a725-446769044929" />
 
 ---
 
@@ -51,7 +51,7 @@ http://localhost:5000
 
 Evidência do servidor em execução:
 
-![Servidor Flask Rodando](imagens/03_servidor_flask_rodando.png)
+<img width="1920" height="936" alt="Figura 3 - phishing-lab-execution-proof png" src="https://github.com/user-attachments/assets/b1099280-2dc8-49d6-8570-6a229d7adef6" />
 
 ---
 
@@ -61,7 +61,7 @@ Simulação de interação na página educativa e registro automático das infor
 
 Evidência da interação registrada:
 
-![Interação Registrada](imagens/04_interacao_registrada.png)
+<img width="1920" height="936" alt="Figura 4 — Servidor Flask em execução no Kali Linux" src="https://github.com/user-attachments/assets/7e08d0ba-df87-45e8-8c62-1bb2faacc80d" />
 
 ---
 
