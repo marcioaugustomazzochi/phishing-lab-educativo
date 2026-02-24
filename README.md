@@ -46,15 +46,15 @@
 ```text
 phishing-lab-educativo/
 │
-├─ README.md
-├─ requirements.txt
-├─ app.py
-├─ templates/
-├─ logs/
-├─ impressões/
-├─ emails/
-├─ utils/
-└─ examples/
+├─ README.md               # Documentação do projeto
+├─ requirements.txt        # Bibliotecas Python necessárias
+├─ app.py                  # Script principal do servidor web
+├─ templates/              # Páginas HTML educativas
+├─ logs/                   # Logs de interações (CSV ou DB)
+├─ impressões/             # Capturas de tela automáticas
+├─ emails/                 # Scripts de envio de e-mails seguros
+├─ utils/                  # Funções auxiliares (relatórios, análise)
+└─ examples/               # Exemplos de campanhas educativas
 🚀 Como Executar
 
 Clone o repositório:
