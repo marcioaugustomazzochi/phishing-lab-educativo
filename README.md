@@ -2,97 +2,58 @@
 
 [![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green)](https://opensource.org/licenses/MIT)
-[![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-orange)](https://github.com/marcioaugustomazzochi/phishing-lab-educativo)
-[![Security Focus](https://img.shields.io/badge/Security-Blue%20Team-blue)]()
+[![WIP](https://img.shields.io/badge/Status-Em%20Andamento-orange)](https://github.com/marcioaugustomazzochi/phishing-lab-educativo)
+[![GitHub stars](https://img.shields.io/github/stars/marcioaugustomazzochi/phishing-lab-educativo)](https://github.com/marcioaugustomazzochi/phishing-lab-educativo/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/marcioaugustomazzochi/phishing-lab-educativo)](https://github.com/marcioaugustomazzochi/phishing-lab-educativo/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/marcioaugustomazzochi/phishing-lab-educativo)](https://github.com/marcioaugustomazzochi/phishing-lab-educativo/issues)
+[![GitHub commits](https://img.shields.io/github/commit-activity/m/marcioaugustomazzochi/phishing-lab-educativo)](https://github.com/marcioaugustomazzochi/phishing-lab-educativo/commits/main)
 
 ---
 
-## 🎯 Objetivo do Projeto
+## 🔹 Visão Geral
 
-O **Phishing Lab Educativo** é um laboratório controlado desenvolvido em Python com foco em:
+**Phishing Lab Educativo** é um **laboratório seguro** desenvolvido em Python para **simular ataques de engenharia social de forma controlada**, permitindo aprendizado e demonstrações sobre ataques de phishing e boas práticas de segurança, sem comprometer terceiros.
 
-- Simulação segura de campanhas de phishing
-- Medição de comportamento do usuário
-- Geração de métricas de conscientização
-- Apoio a programas de Security Awareness
-- Desenvolvimento de controles preventivos (Blue Team)
-
-> ⚠️ Uso exclusivo em ambiente controlado e autorizado.
-
----
-
-## 🧠 Conceitos Abordados
-
-- Engenharia Social  
-- Phishing Awareness  
-- Segurança Defensiva (Blue Team)  
-- Métricas de Taxa de Clique (CTR)  
-- Monitoramento de Interações  
-- Automação em Python aplicada à Segurança  
-- Princípios alinhados à LGPD  
+> ⚠️ **Atenção:** Este projeto deve ser usado **apenas em ambiente controlado e para fins educativos**. Não execute testes em sistemas de terceiros sem autorização.
 
 ---
 
 ## ✅ Funcionalidades
 
-- 🔹 Criação automática de páginas educativas de phishing  
-- 🔹 Simulação de envio de e-mails em ambiente de laboratório  
-- 🔹 Registro estruturado de interações (SQLite / CSV)  
-- 🔹 Captura automática de screenshots  
-- 🔹 Geração de relatórios em PDF  
-- 🔹 Dashboard estatístico com gráficos  
-- 🔹 Personalização de campanhas educativas  
+- Criação automática de **páginas de phishing educativas**
+- Envio de **e-mails simulados** para usuários de teste (lab seguro)
+- Registro de interações em **logs locais (CSV/SQLite)**
+- Captura automática de **screenshots** durante a execução
+- Geração de **relatórios e estatísticas** sobre campanhas de teste
+- Personalização de campanhas e templates educativos
 
 ---
 
 ## 🛠 Tecnologias Utilizadas
 
-- **Python 3.x**
-- **Flask**
-- **SQLite**
-- **Matplotlib**
-- **ReportLab**
-- **HTML / CSS / Jinja2**
-- **pyautogui**
+- **Python 3.x** – linguagem principal  
+- **Flask** – servidor web para páginas educativas  
+- **pyautogui** – captura de tela automatizada  
+- **SQLite / CSV** – armazenamento de logs  
+- **smtplib** – envio de e-mails simulados  
+- **HTML / CSS / Jinja2** – criação de páginas e templates  
+- **Matplotlib / Plotly (opcional)** – gráficos e dashboards  
 
 ---
 
-## 📊 Métricas Geradas
-
-O laboratório permite acompanhar:
-
-- Número total de usuários impactados  
-- Taxa de clique em links simulados  
-- Registro de interações por ação  
-- Estatísticas consolidadas por campanha  
-- Evidências visuais (screenshots)  
-
-Essas métricas podem ser utilizadas para:
-
-- Treinamentos internos  
-- Relatórios de conscientização  
-- Demonstração de maturidade em segurança  
-
----
-
-## 📂 Estrutura do Projeto
+## 📂 Estrutura do Repositório
 
 ```text
 phishing-lab-educativo/
 │
-├─ app.py
+├─ README.md
 ├─ requirements.txt
+├─ app.py
 ├─ templates/
 ├─ logs/
-│   ├─ interacoes.db
-│   ├─ relatorio_campanha.pdf
-│   └─ dashboard.png
 ├─ impressões/
 ├─ emails/
 ├─ utils/
-│   ├─ logger.py
-│   ├─ relatorio.py
-│   └─ dashboard.py
 └─ examples/
 🚀 Como Executar
 
@@ -112,36 +73,28 @@ python app.py
 Acesse no navegador:
 
 http://localhost:5000
-🔐 Boas Práticas e Conformidade
 
-Não utilizar contra terceiros
+Confira as interações em:
 
-Não coletar dados reais
+logs/
+impressões/
+📸 Captura de Screenshots
 
-Executar apenas em ambiente isolado
+O projeto possui captura automática de telas durante a execução, salvando os prints na pasta impressões/.
 
-Finalidade exclusivamente educacional
+Cada screenshot recebe um timestamp único para evitar sobrescrita.
 
-📈 Roadmap
+Exemplo:
+import pyautogui
+from datetime import datetime
 
- Sistema de autenticação para painel administrativo
+timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+pyautogui.screenshot(f"impressões/screenshot_{timestamp}.png")
+💡 Sugestões e Feedbacks
 
- Dashboard web integrado ao Flask
-
- Múltiplas campanhas simultâneas
-
- Exportação automática em CSV
-
- Integração com métricas de risco
-
- Versão 1.0.0 estável
-
-👨‍💻 Autor
-
-Marcio Augusto Mazzochi
-Analista de Segurança da Informação
-Automação em Python | GRC | LGPD | Gestão de Riscos
+Feedbacks e sugestões são muito bem-vindos!
+Abra issues ou pull requests para contribuir.
 
 📜 Licença
 
-MIT License – Uso educacional em ambiente controlado.
+MIT License – Uso restrito a fins educativos e em ambiente controlado.
